@@ -49,15 +49,13 @@ serverless-data-platform/
   Jenkinsfile
 ```
 
-## Git flow used in this project
+## Branching strategy (GitHub flow)
 
-- `main`: stable, released code only
-- `develop`: where all finished features get merged first
-- `feature/*`: one branch per step, created from `develop`
-- `release/*`: final checks before merging into `main`
-- `hotfix/*`: quick fixes on `main`
+- `main`: always working, stable code
+- `feature/*`: one short-lived branch per step, created from `main`
+- `hotfix/*`: quick fixes, also created from `main`
 
-Every feature branch is merged into `develop` with a pull request. No direct commits to `main` or `develop`.
+Every change goes through a pull request into `main`. No direct commits to `main`. Releases are marked with tags like `v1.0`.
 
 ## Commit message style
 
@@ -76,4 +74,4 @@ Short and clear, for example:
 - [ ] CloudWatch monitoring
 - [ ] Docker
 - [ ] Jenkins CI/CD
-- [ ] Release v1.0
+- [ ] Final cleanup and v1.0 tag

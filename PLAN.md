@@ -6,7 +6,7 @@ For every step we will do the same 4 things:
 1. Understand the concept in simple words
 2. Do it by hand first (AWS console), so you see what is happening
 3. Do it with code
-4. Commit, open a PR, merge (git flow practice)
+4. Commit, open a PR into `main`, merge (GitHub flow practice)
 
 ---
 
@@ -30,12 +30,12 @@ For every step we will do the same 4 things:
 ## Step 1: `feature/project-setup`
 
 **What we do**
-- Create the GitHub repo with `main` and `develop`
+- Create the GitHub repo with a `main` branch
 - Add folder structure, README, .gitignore, sample data
 - Make a Python virtual environment
 
 **What you learn**
-- Git flow in practice (branches, PRs, merging)
+- GitHub flow in practice (branches, PRs, merging)
 - Clean project structure
 - Virtual environments
 
@@ -126,17 +126,18 @@ For every step we will do the same 4 things:
 
 ---
 
-## Step 8: `release/v1.0`
+## Step 8: `feature/final-cleanup`
 
 **What we do**
 - Final cleanup and testing
-- Merge `release/v1.0` into `main` and `develop`
-- Tag `v1.0`
-- Practice one `hotfix/` branch
+- Update the README with screenshots and what we learned
+- Merge into `main` and tag `v1.0`
+- Practice one `hotfix/` branch off `main`
 - Delete AWS resources so you don't get charged
 
 **What you learn**
-- Full git flow release cycle
+- Tagging releases
+- Hotfix workflow
 - Cleanup and cost control
 
 ---
@@ -146,4 +147,4 @@ For every step we will do the same 4 things:
 - I built an event-driven serverless pipeline on AWS
 - I set up monitoring and alerts with CloudWatch
 - I automated builds and deployments with Docker and Jenkins
-- I followed git flow with feature, release, and hotfix branches
+- I used GitHub flow: feature branches, pull requests into `main`, release tags, and a hotfix

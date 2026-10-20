@@ -1,0 +1,17 @@
+order_id,customer_name,product,quantity,price,order_date,region
+1001,Aarav Mehta,Laptop,1,899.99,2026-01-05,West
+1002,Priya Nair,Mouse,2,19.99,2026-01-06,south
+1003,John Smith,Keyboard,1,49.5,2026-01-06,East
+1004,Sneha Rao,Monitor,2,189.00,2026-01-07,North
+1005,  Rahul Verma ,Laptop,1,899.99,2026-01-08,WEST
+1006,Emily Clark,Headphones,,59.99,2026-01-08,East
+1007,Karan Patel,Mouse,3,19.99,2026-01-09,South
+1007,Karan Patel,Mouse,3,19.99,2026-01-09,South
+1008,Anita Desai,Monitor,1,,2026-01-10,North
+1009,Michael Brown,Keyboard,2,49.5,01/11/2026,East
+1010,Divya Reddy,Laptop,1,899.99,2026-01-12,west
+1011,,Headphones,1,59.99,2026-01-12,South
+1012,Sam Wilson,Mouse,-1,19.99,2026-01-13,East
+1013,Meera Iyer,Monitor,1,189.00,2026-01-14,North
+1014,Chris Lee,Keyboard,4,49.5,2026-01-15,West
+1015,Pooja Shah,Laptop,2,899.99,2026-01-15,south

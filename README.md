@@ -56,22 +56,3 @@ serverless-data-platform/
 - `hotfix/*`: quick fixes, also created from `main`
 
 Every change goes through a pull request into `main`. No direct commits to `main`. Releases are marked with tags like `v1.0`.
-
-## Commit message style
-
-Short and clear, for example:
-- `feat: add csv cleaning function`
-- `fix: handle missing price values`
-- `docs: update readme`
-- `chore: add gitignore`
-
-## Status
-
-- [ ] Project setup
-- [ ] S3 ingestion
-- [ ] Lambda transform
-- [ ] DynamoDB storage
-- [ ] CloudWatch monitoring
-- [ ] Docker
-- [ ] Jenkins CI/CD
-- [ ] Final cleanup and v1.0 tag
